@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004367",
+  "source": "openneuro",
+  "source_id": "ds004367",
+  "title": "Meta-rdk: Raw EEG data",
+  "authors": {
+    "Martin Rouy": {},
+    "Matthieu Roger": {},
+    "Dorian Goueytes": {},
+    "Michael Pereira": {},
+    "Paul Roux": {},
+    "Nathan Faivre": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004367.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
