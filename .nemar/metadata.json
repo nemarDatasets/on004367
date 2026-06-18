@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Meta-rdk: Raw EEG data",
+  "description": "This dataset contains raw EEG recordings from a visual discrimination task comparing individuals with schizophrenia spectrum disorders and healthy controls. Participants performed a motion coherence discrimination task with adaptive difficulty while reporting confidence in their perceptual decisions. The study investigates neural correlates of perceptual decision-making and metacognitive processes in schizophrenia.",
+  "methods_description": "EEG data were collected during a visual discrimination task using 100 moving dots at varying coherence levels adapted via 1up/2down staircase procedure. Participants indicated motion direction (left/right) via mouse click and subsequently reported confidence on a visual analog scale (0-100%). Task difficulty was individually calibrated to match performance between patient and control groups.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +14,30 @@
     "Paul Roux": {},
     "Nathan Faivre": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004367.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "schizophrenia"
+    },
+    {
+      "term": "perceptual decision-making"
+    },
+    {
+      "term": "metacognition"
+    },
+    {
+      "term": "visual discrimination"
+    },
+    {
+      "term": "motion coherence"
+    },
+    {
+      "term": "confidence judgment"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004367",
       "identifier_type": "URL",
@@ -27,46 +47,27 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004367",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004367.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "30.0 GB (81 files)"
   ],
   "formats": [
     ".fdt",
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset contains raw EEG recordings from a visual discrimination task comparing individuals with schizophrenia spectrum disorders and healthy controls. Participants performed a motion coherence discrimination task with concurrent confidence ratings, using adaptive staircase procedures to equalize task difficulty across groups. The study investigates neural correlates of perceptual decision-making and metacognitive processes in psychotic disorders.",
-  "methods_description": "EEG data were collected during a visual discrimination task involving 100 moving dots presented at the center of the screen. Participants indicated perceived motion direction (left/right) via mouse clicks on targets at screen corners. Motion coherence was individually adapted using a 1up/2down staircase procedure. Following each decision, participants rated confidence on a visual analog scale (0-100%). The study included 20 individuals with schizophrenia spectrum disorder and 22 healthy controls.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "schizophrenia"
-    },
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "decision-making"
-    },
-    {
-      "term": "metacognition"
-    },
-    {
-      "term": "motion coherence"
-    },
-    {
-      "term": "confidence judgment"
-    }
-  ],
-  "source_hash": "f4a061ec9dbecc14ed67598f41b98aa2504352374a2bf86eb6b7e59f07bc1d86"
+  "source_hash": "832e01105803f666a596f8129fd70e5f4470228c11526bd22e36fd836c2baa2b"
 }
