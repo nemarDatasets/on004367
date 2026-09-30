@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Meta-rdk: Raw EEG data",
-  "description": "This dataset contains raw EEG recordings from a visual discrimination task comparing individuals with schizophrenia spectrum disorders and healthy controls. Participants performed a motion coherence discrimination task with adaptive difficulty while reporting confidence in their perceptual decisions. The study investigates neural correlates of perceptual decision-making and metacognitive processes in schizophrenia.",
-  "methods_description": "EEG data were collected during a visual discrimination task using 100 moving dots at varying coherence levels adapted via 1up/2down staircase procedure. Participants indicated motion direction (left/right) via mouse click and subsequently reported confidence on a visual analog scale (0-100%). Task difficulty was individually calibrated to match performance between patient and control groups.",
+  "description": "Raw EEG recordings from 20 individuals with a schizophrenia spectrum disorder and 22 healthy control participants performing a random-dot motion discrimination task. After each left/right decision, participants rated their confidence on a visual analog scale. The dataset supports investigation of perceptual decision-making and metacognition in schizophrenia.",
+  "methods_description": "Participants judged the motion direction (left or right) of 100 moving dots by reaching to and clicking one of two targets with a mouse. Motion coherence was adjusted individually with a 1up/2down staircase to match performance between groups. After each decision, participants reported confidence on a vertical visual analog scale from 0% (sure incorrect) to 100% (sure correct). Patients were diagnosed using the Structured Clinical Interview for DSM-5.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,22 +19,21 @@
       "term": "EEG"
     },
     {
-      "term": "schizophrenia"
-    },
-    {
-      "term": "perceptual decision-making"
+      "term": "Schizophrenia",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012559"
     },
     {
       "term": "metacognition"
     },
     {
-      "term": "visual discrimination"
+      "term": "confidence"
     },
     {
-      "term": "motion coherence"
+      "term": "perceptual decision-making"
     },
     {
-      "term": "confidence judgment"
+      "term": "random dot motion"
     }
   ],
   "related_identifiers": [
@@ -44,14 +43,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004367",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004367.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004367",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -59,7 +58,7 @@
     "eeg"
   ],
   "sizes": [
-    "30.0 GB (81 files)"
+    "27.97 GB (81 files)"
   ],
   "formats": [
     ".fdt",
